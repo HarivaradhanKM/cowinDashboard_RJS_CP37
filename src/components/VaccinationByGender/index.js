@@ -12,7 +12,7 @@ const VaccinationByGender = props => {
         <Pie
           cx="50%"
           cy="60%"
-          date={vaccinationByGenderDetails}
+          data={vaccinationByGenderDetails}
           startAngle={180}
           endAngle={0}
           innerRadius="30%"

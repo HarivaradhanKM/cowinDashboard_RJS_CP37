@@ -10,7 +10,7 @@ const VaccinationByAge = props => {
       <h1 className="vaccination-by-age-heading">Vaccination by age</h1>
       <PieChart width={1000} height={300}>
         <Pie
-          date={vaccinationByAgeDetails}
+          data={vaccinationByAgeDetails}
           cx="50%"
           cy="30%"
           outerRadius="60%"
